@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 180
-    length: 99
+    length: 100
     placeholder_text: "...  # TODO перевести скорость скачивания из байт в килобай\
       ты, если 1 килобайт = 1024 байта"
     initial_state:
@@ -12,9 +12,9 @@ files:
       offset: 180
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: speed / 1024
-  - offset: 294
+  - offset: 295
     length: 42
     placeholder_text: "...  # TODO перевести время в секунды"
     initial_state:
@@ -22,9 +22,9 @@ files:
       offset: 286
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: time * 60
-  - offset: 403
+  - offset: 404
     length: 45
     placeholder_text: "...  # TODO размер файла"
     initial_state:
@@ -32,17 +32,17 @@ files:
       offset: 390
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: "time_in_sec * speed_in_kb_in_sec  # размер файла"
-  - offset: 463
-    length: 45
+  - offset: 464
+    length: 59
     placeholder_text: "...  # TODO стоимость файла"
     initial_state:
       length: 27
       offset: 429
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: "(file_size - free_traffic) * cost  # стоимость фай\
       ла"
   text: |
@@ -69,5 +69,14 @@ files:
     Размер файла в килобайтах = 28800.0
     За трафик придется заплатить: 3537.5
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Thu, 12 Oct 2023 15:52:31 UTC"
+  expected: |
+    Размер файла в килобайтах = 28800.0
+    За трафик придется заплатить: 3537.5
+  actual: |
+    Размер файла в килобайтах = 503070720
+    За трафик придется заплатить: 523532.0
 record: -1
