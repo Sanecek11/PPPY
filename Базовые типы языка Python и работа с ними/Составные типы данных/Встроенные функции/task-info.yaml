@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 13
-    length: 36
+    length: 39
     placeholder_text: "...  # TODO сформировать список цифр"
     initial_state:
       length: 36
@@ -13,54 +13,54 @@ files:
     selected: false
     status: Unchecked
     encrypted_possible_answer: "[4, 9, 5, 1, 8, 4]"
-  - offset: 89
-    length: 23
+  - offset: 92
+    length: 35
     placeholder_text: "...)  # TODO сумма цифр"
     initial_state:
       length: 23
       offset: 89
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: sum(list_digit))
-  - offset: 138
-    length: 28
+  - offset: 153
+    length: 16
     placeholder_text: "...)  # TODO количество цифр"
     initial_state:
       length: 28
       offset: 138
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: len(list_digit))
-  - offset: 194
-    length: 30
+  - offset: 197
+    length: 41
     placeholder_text: "...)  # TODO минимальная цифра"
     initial_state:
       length: 30
       offset: 194
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: min(list_digit))
-  - offset: 253
-    length: 31
+  - offset: 267
+    length: 43
     placeholder_text: "...)  # TODO максимальная цифра"
     initial_state:
       length: 31
       offset: 253
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: max(list_digit))
-  - offset: 322
-    length: 40
+  - offset: 347
+    length: 73
     placeholder_text: "...)  # TODO среднее арифметическое цифр"
     initial_state:
       length: 40
       offset: 322
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: "round(sum(list_digit) / len(list_digit), 2))"
   text: |
