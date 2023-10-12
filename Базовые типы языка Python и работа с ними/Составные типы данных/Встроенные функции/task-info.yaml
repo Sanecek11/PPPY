@@ -4,16 +4,16 @@ files:
   visible: true
   placeholders:
   - offset: 13
-    length: 39
+    length: 51
     placeholder_text: "...  # TODO сформировать список цифр"
     initial_state:
       length: 36
       offset: 13
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: "[4, 9, 5, 1, 8, 4]"
-  - offset: 92
+  - offset: 104
     length: 35
     placeholder_text: "...)  # TODO сумма цифр"
     initial_state:
@@ -21,9 +21,9 @@ files:
       offset: 89
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: sum(list_digit))
-  - offset: 153
+  - offset: 165
     length: 16
     placeholder_text: "...)  # TODO количество цифр"
     initial_state:
@@ -31,9 +31,9 @@ files:
       offset: 138
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: len(list_digit))
-  - offset: 197
+  - offset: 209
     length: 41
     placeholder_text: "...)  # TODO минимальная цифра"
     initial_state:
@@ -41,9 +41,9 @@ files:
       offset: 194
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: min(list_digit))
-  - offset: 267
+  - offset: 279
     length: 43
     placeholder_text: "...)  # TODO максимальная цифра"
     initial_state:
@@ -51,17 +51,17 @@ files:
       offset: 253
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: max(list_digit))
-  - offset: 347
-    length: 73
+  - offset: 359
+    length: 82
     placeholder_text: "...)  # TODO среднее арифметическое цифр"
     initial_state:
       length: 40
       offset: 322
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: "round(sum(list_digit) / len(list_digit), 2))"
   text: |
     list_digit = ...  # TODO сформировать список цифр
@@ -86,5 +86,8 @@ files:
     Максимальная цифра 9
     Среднее арифметическое цифр 5.17
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 12 Oct 2023 17:18:20 UTC"
 record: -1
