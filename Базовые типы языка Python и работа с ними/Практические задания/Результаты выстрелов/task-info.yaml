@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 45
-    length: 210
+    length: 248
     placeholder_text: |-
       # TODO Вычислите необходимые значения
       ...
@@ -16,8 +16,8 @@ files:
       length: 210
       offset: 45
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: |-
       total = sum(results)
       count = len(results)
@@ -49,5 +49,16 @@ files:
     Наименьшее количество очков за выстрел: 6
     Наибольшее количество очков за выстрел: 10
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Thu, 12 Oct 2023 17:58:20 UTC"
+  expected: |
+    Среднее арифметическое результатов выстрелов: 8.6
+    Наименьшее количество очков за выстрел: 6
+    Наибольшее количество очков за выстрел: 10
+  actual: |
+    Среднее арифметическое результатов выстрелов: 860
+    Наименьшее количество очков за выстрел: 6
+    Наибольшее количество очков за выстрел: 10
 record: -1
