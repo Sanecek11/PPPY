@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 83
-    length: 152
+    length: 95
     placeholder_text: |-
       ...  # TODO Найдите количество уникальных товаров
 
@@ -13,7 +13,7 @@ files:
       length: 95
       offset: 83
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       unique_items = set(shopping_list)
@@ -37,5 +37,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Wed, 18 Oct 2023 10:28:00 UTC"
+  time: "Thu, 19 Oct 2023 15:54:48 UTC"
 record: -1

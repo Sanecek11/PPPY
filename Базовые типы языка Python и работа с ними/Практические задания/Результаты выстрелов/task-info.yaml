@@ -13,7 +13,7 @@ files:
       print("Наименьшее количество очков за выстрел:", ...)
       print("Наибольшее количество очков за выстрел:", ...)
     initial_state:
-      length: 210
+      length: 301
       offset: 45
     initialized_from_dependency: false
     selected: true
@@ -52,5 +52,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Wed, 18 Oct 2023 10:25:02 UTC"
+  time: "Thu, 19 Oct 2023 15:54:42 UTC"
 record: -1

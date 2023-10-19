@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 83
-    length: 359
+  - offset: 82
+    length: 209
     placeholder_text: |-
       # TODO найти сумму, количество и среднее арифметическое уникальных чисел
 
@@ -15,7 +15,7 @@ files:
       length: 209
       offset: 82
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       unique_numbers = set(list_)
@@ -50,6 +50,6 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Wed, 18 Oct 2023 10:46:46 UTC"
+  time: "Thu, 19 Oct 2023 15:54:53 UTC"
 record: -1
 solution_hidden: true

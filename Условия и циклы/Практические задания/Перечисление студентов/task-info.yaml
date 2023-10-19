@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 59
-    length: 38
+    length: 75
     placeholder_text: '# TODO распечатать в столбик все имена'
     initial_state:
       length: 38
       offset: 59
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       for student in list_students:
           print(student)
@@ -32,5 +32,8 @@ files:
     Кирилл
     Оля
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 19 Oct 2023 17:40:18 UTC"
 record: -1
