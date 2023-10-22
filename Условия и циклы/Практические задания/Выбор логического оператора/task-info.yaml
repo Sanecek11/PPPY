@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 11
-    length: 2
+    length: 3
     placeholder_text: '...'
     initial_state:
       length: 3
@@ -13,7 +13,7 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: or
-  - offset: 60
+  - offset: 61
     length: 3
     placeholder_text: '...'
     initial_state:
@@ -39,5 +39,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 19 Oct 2023 16:56:54 UTC"
+  time: "Sun, 22 Oct 2023 10:55:10 UTC"
 record: -1

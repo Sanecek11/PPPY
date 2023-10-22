@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 169
-    length: 73
+    length: 56
     placeholder_text: "...)  # TODO проверить наличие искомого фрукта в корзине"
     initial_state:
       length: 56
@@ -34,5 +34,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 19 Oct 2023 17:09:58 UTC"
+  time: "Sun, 22 Oct 2023 10:55:36 UTC"
 record: -1
