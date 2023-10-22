@@ -44,7 +44,7 @@ files:
       length: 86
       offset: 260
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: 'condition_1 or condition_2 or condition_3:'
   text: |
