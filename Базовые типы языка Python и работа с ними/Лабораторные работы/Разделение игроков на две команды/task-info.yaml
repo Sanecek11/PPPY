@@ -1,18 +1,9 @@
 type: output
 files:
-- name: __init__.py
-  visible: false
-  learner_created: false
-- name: tests/output.txt
-  visible: false
-  text: |
-    ['Маша', 'Петя', 'Саша']
-    ['Оля', 'Кирилл', 'Коля']
-  learner_created: false
 - name: main.py
   visible: true
   placeholders:
-  - offset: 168
+  - offset: 66
     length: 42
     placeholder_text: '# TODO Разделите участников на две команды'
     initial_state:
@@ -35,9 +26,15 @@ files:
 
     # TODO Разделите участников на две команды
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: tests/output.txt
+  visible: false
+  text: |
+    ['Маша', 'Петя', 'Саша']
+    ['Оля', 'Кирилл', 'Коля']
+  learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 19 Oct 2023 15:54:11 UTC"
 record: -1
 solution_hidden: true

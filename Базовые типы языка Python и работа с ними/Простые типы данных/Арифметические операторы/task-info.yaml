@@ -15,14 +15,14 @@ files:
     encrypted_possible_answer: |-
       length = 90  # Длина
       width = 50  # Ширина
-  - offset: 125
-    length: 52
+  - offset: 103
+    length: 36
     placeholder_text: "...  # TODO Посчитайте периметр поля"
     initial_state:
       length: 36
       offset: 103
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: (length + width) * 2
   text: |
@@ -44,5 +44,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 12 Oct 2023 15:31:10 UTC"
+  time: "Mon, 23 Oct 2023 18:40:46 UTC"
 record: -1

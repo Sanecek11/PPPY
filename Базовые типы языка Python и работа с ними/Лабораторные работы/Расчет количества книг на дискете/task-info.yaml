@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 402
+    length: 124
     placeholder_text: |-
       # TODO Найдите количество книг, которое можно разместить на дискете
 
@@ -13,7 +13,7 @@ files:
       length: 124
       offset: 0
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       BYTES_ONE_CHAR = 4  # размер одного символа в байтах
@@ -47,8 +47,5 @@ files:
   visible: false
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Wed, 18 Oct 2023 12:42:10 UTC"
 record: -1
 solution_hidden: true

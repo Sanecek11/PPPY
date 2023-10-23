@@ -1,8 +1,5 @@
 type: theory
 files:
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: main.py
   visible: true
   text: |
@@ -19,8 +16,9 @@ files:
     empty = None  # Отсутствие результата это тоже результат
     print(empty, type(empty))
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 status: Solved
-feedback:
-  time: "Wed, 18 Oct 2023 09:53:43 UTC"
 record: -1
 post_submission_on_open: true

@@ -4,63 +4,63 @@ files:
   visible: true
   placeholders:
   - offset: 13
-    length: 51
+    length: 36
     placeholder_text: "...  # TODO сформировать список цифр"
     initial_state:
       length: 36
       offset: 13
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: "[4, 9, 5, 1, 8, 4]"
-  - offset: 104
-    length: 35
+  - offset: 89
+    length: 23
     placeholder_text: "...)  # TODO сумма цифр"
     initial_state:
       length: 23
       offset: 89
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: sum(list_digit))
-  - offset: 165
-    length: 16
+  - offset: 138
+    length: 28
     placeholder_text: "...)  # TODO количество цифр"
     initial_state:
       length: 28
       offset: 138
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: len(list_digit))
-  - offset: 209
-    length: 41
+  - offset: 194
+    length: 30
     placeholder_text: "...)  # TODO минимальная цифра"
     initial_state:
       length: 30
       offset: 194
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: min(list_digit))
-  - offset: 279
-    length: 43
+  - offset: 253
+    length: 31
     placeholder_text: "...)  # TODO максимальная цифра"
     initial_state:
       length: 31
       offset: 253
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: max(list_digit))
-  - offset: 359
-    length: 82
+  - offset: 322
+    length: 40
     placeholder_text: "...)  # TODO среднее арифметическое цифр"
     initial_state:
       length: 40
       offset: 322
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: "round(sum(list_digit) / len(list_digit), 2))"
   text: |
@@ -89,5 +89,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 12 Oct 2023 17:18:20 UTC"
+  time: "Mon, 23 Oct 2023 18:40:58 UTC"
 record: -1

@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 33
-    length: 59
+    length: 52
     placeholder_text: "...  # TODO Разверните слово с помощью слайсирования"
     initial_state:
       length: 52
       offset: 33
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: "word[::-1]"
   text: |
@@ -32,5 +32,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 12 Oct 2023 16:29:42 UTC"
+  time: "Mon, 23 Oct 2023 18:40:55 UTC"
 record: -1
