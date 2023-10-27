@@ -6,8 +6,7 @@ count = -1
 # TODO Посчитайте количество  месяцев, которое можно протянуть без долгов
 
 while money_capital >= 0:
-    money_capital += salary
-    money_capital -= spend
+    money_capital += salary - spend
     spend_1 = spend * 0.05
     spend += spend_1
     count += 1
