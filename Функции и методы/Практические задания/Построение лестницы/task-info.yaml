@@ -11,21 +11,21 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       def print_stairs(count_stairs=4):
           for i in range(1, count_stairs + 1):
               print("*" * i)
-  - offset: 39
-    length: 62
+  - offset: 90
+    length: 85
     placeholder_text: '# TODO вызвать функцию без аргументов и с аргументом равным
       10'
     initial_state:
       length: 62
       offset: 39
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       print_stairs()
       print_stairs(10)
@@ -56,5 +56,8 @@ files:
     *********
     **********
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 02 Nov 2023 18:15:49 UTC"
 record: -1

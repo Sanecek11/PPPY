@@ -1,6 +1,9 @@
 def calculate_total_sales(sales_list):
     ...  # TODO Вычислите общую стоимость проданных товаров из списка `sales_list`
-    sales_data.get()
+    total = 0
+    for count in sales_list:
+        total += count["quantity"] * count["price_per_unit"]
+    return total
 
 sales_data = [
     {"product": "Футболка", "quantity": 10, "price_per_unit": 500},
