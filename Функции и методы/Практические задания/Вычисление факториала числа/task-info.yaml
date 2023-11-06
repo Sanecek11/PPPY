@@ -22,8 +22,8 @@ files:
               result *= num
 
           return result
-  - offset: 161
-    length: 157
+  - offset: 38
+    length: 139
     placeholder_text: "# TODO Вызовите функцию factorial и распечатайте результат\
       \ \nprint(f\"Факториал числа 0 равен {...}\")\nprint(f\"Факториал числа 5 ра\
       вен {...}\")"
@@ -31,7 +31,7 @@ files:
       length: 139
       offset: 38
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       print(f"Факториал числа 0 равен {factorial(0)}")
@@ -52,5 +52,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 02 Nov 2023 17:51:56 UTC"
+  time: "Mon, 06 Nov 2023 14:50:31 UTC"
 record: -1

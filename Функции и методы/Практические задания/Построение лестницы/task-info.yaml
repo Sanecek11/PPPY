@@ -16,15 +16,15 @@ files:
       def print_stairs(count_stairs=4):
           for i in range(1, count_stairs + 1):
               print("*" * i)
-  - offset: 90
-    length: 85
+  - offset: 39
+    length: 62
     placeholder_text: '# TODO вызвать функцию без аргументов и с аргументом равным
       10'
     initial_state:
       length: 62
       offset: 39
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       print_stairs()
@@ -59,5 +59,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 02 Nov 2023 18:15:49 UTC"
+  time: "Mon, 06 Nov 2023 14:50:33 UTC"
 record: -1

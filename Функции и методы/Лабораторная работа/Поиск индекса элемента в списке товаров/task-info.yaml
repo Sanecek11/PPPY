@@ -17,8 +17,8 @@ files:
           for index, current_item in enumerate(items):
               if current_item == item:
                   return index
-  - offset: 188
-    length: 56
+  - offset: 237
+    length: 85
     placeholder_text: "...  # TODO Вызовите функцию, что получить индекс товара"
     initial_state:
       length: 56
