@@ -24,7 +24,7 @@ files:
                   else:
                       letter_count[char] = 1
           return letter_count
-  - offset: 224
+  - offset: 254
     length: 43
     placeholder_text: '# TODO Напишите функцию calculate_frequency'
     initial_state:
@@ -37,8 +37,8 @@ files:
       \ = sum(letter_count.values())\n    \n    letter_frequency = {}\n    for current_letter,\
       \ count in letter_count.items():\n        letter_frequency[current_letter] =\
       \ count / total_letters\n        \n    return letter_frequency"
-  - offset: 1435
-    length: 57
+  - offset: 1426
+    length: 236
     placeholder_text: '# TODO Распечатайте в столбик букву и её частоту в тексте'
     initial_state:
       length: 57
@@ -137,6 +137,6 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Tue, 07 Nov 2023 13:29:21 UTC"
+  time: "Tue, 07 Nov 2023 14:06:23 UTC"
 record: -1
 solution_hidden: true
