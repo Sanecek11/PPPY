@@ -1,11 +1,16 @@
 # TODO Напишите функцию для поиска индекса товара
-def find_index(il, itm):
-    return il.index(itm)
+def find_first_index(lst, item):
+    try:
+        index = lst.index(item)
+        return index
+    except ValueError:
+        return None
+
 
 items_list = ['яблоко', 'банан', 'апельсин', 'груша', 'киви', 'банан']
 
 for find_item in ['банан', 'груша', 'персик']:
-    index_item = find_index(items_list, "яблоко")  # TODO Вызовите функцию, что получить индекс товара
+    index_item = find_first_index(items_list, find_item)  # TODO Вызовите функцию, что получить индекс товара
     if index_item is not None:
         print(f"Первое вхождение товара '{find_item}' имеет индекс {index_item}.")
     else:
