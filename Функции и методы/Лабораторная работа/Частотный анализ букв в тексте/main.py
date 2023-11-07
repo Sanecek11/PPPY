@@ -3,13 +3,18 @@ def count_letters(text):
     list_ = list(("".join(i for i in text if i.isalpha())).lower())
     dict_ = {}
     for i in list_:
-        dict_[i] = dict_.get(i, 0) + 1 #ШТО ЭТА ТАКОЕ
+        dict_[i] = dict_.get(i, 0) + 1
     return dict_
 
 # TODO Напишите функцию calculate_frequency
-def calculate_frequency(dict_):
 
-    pass
+
+def calculate_frequency(dct):
+    total_letters = sum(dct.values())
+    frequency_dict = {letter: count / total_letters for letter, count in dct.items()}
+    for letter, frequency in frequency_dict.items():
+        print(f'{letter}: {frequency:.2f}')
+
 
 main_str = """
 У лукоморья дуб зелёный;
@@ -48,4 +53,5 @@ main_str = """
 """
 
 # TODO Распечатайте в столбик букву и её частоту в тексте
-print(count_letters(main_str))
+(calculate_frequency((count_letters(main_str))))
+
