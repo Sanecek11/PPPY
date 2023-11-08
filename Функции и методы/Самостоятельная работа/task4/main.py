@@ -1,6 +1,7 @@
 # TODO реализовать функцию
-def insert():
-    ...
+def insert(list_, value, index=0):
+    list_.insert(value, index)
+    return list_
 
 
 print(insert([1], value=0))  # [0, 1]
