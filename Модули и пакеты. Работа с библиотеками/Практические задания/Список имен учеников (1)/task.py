@@ -1,5 +1,9 @@
 # TODO Напишите функцию get_student_names
-
+def get_student_names(list_):
+    # list_1 = ([list_, key=lambda p: p["age"]]) не ворк
+    for i in list_['name']:
+        list_1.append(i)
+        return list_1
 
 if __name__ == '__main__':
     # Пример списка учеников
@@ -26,3 +30,4 @@ if __name__ == '__main__':
         },
     ]
     # TODO Вызовите функцию get_student_names
+    print(get_student_names(students_list))

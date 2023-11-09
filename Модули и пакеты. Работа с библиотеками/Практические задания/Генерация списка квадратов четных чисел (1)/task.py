@@ -7,7 +7,7 @@ def generate_even_squares(n):
     for i in range(n+1):
         if i % 2 == 0:
             even_squares.append(i**2)
-    return even_squares
+    return [n**2 for n in range(n + 1) if n % 2 == 0]
 
 
 if __name__ == '__main__':
