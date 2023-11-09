@@ -1,8 +1,9 @@
 # TODO реализовать функцию
 def get_sentences_list(text):
-    # list_ = [(text.split(".")).strip([])] """ .strip не работает со списком"""
-    # (text.split(".")).strip([])
-    list_ = str(text.split("."))
+    list_ = []
+    for sen in text.split("."):
+        if sen:
+            list_.append(sen.strip())
     return list_
 
 

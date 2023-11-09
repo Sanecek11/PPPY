@@ -50,7 +50,4 @@ files:
     Наибольшее количество очков за выстрел: 10
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Mon, 23 Oct 2023 18:41:05 UTC"
 record: -1

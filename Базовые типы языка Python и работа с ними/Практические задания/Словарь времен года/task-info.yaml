@@ -33,7 +33,4 @@ files:
     {1: 'Зима', 2: 'Весна', 3: 'Лето', 4: 'Осень'}
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Mon, 23 Oct 2023 18:41:01 UTC"
 record: -1

@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 221
+    length: 60
     placeholder_text: |-
       # TODO реализовать функцию
       def get_sentences_list():
@@ -13,8 +13,8 @@ files:
       length: 60
       offset: 0
     initialized_from_dependency: false
-    selected: true
-    status: Failed
+    selected: false
+    status: Solved
     encrypted_possible_answer: |-
       def get_sentences_list(str_words):
           sentences_list = []
@@ -39,12 +39,5 @@ files:
   text: |
     ['Здесь много разных слов', 'Возможно и много повторений']
   learner_created: false
-status: Failed
-feedback:
-  message: Incorrect
-  time: "Wed, 08 Nov 2023 16:40:47 UTC"
-  expected: |
-    ['Здесь много разных слов', 'Возможно и много повторений']
-  actual: |
-    None
+status: Solved
 record: -1

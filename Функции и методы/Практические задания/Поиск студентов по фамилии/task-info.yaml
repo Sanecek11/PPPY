@@ -43,7 +43,4 @@ files:
     Есть ли в базе студент с фамилией Пупкин? False
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Mon, 06 Nov 2023 14:50:26 UTC"
 record: -1

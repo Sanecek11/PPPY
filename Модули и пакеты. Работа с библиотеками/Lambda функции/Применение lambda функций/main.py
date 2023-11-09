@@ -30,5 +30,5 @@ students = {
     "Charlie": 78,
     "David": 90
 }
-sorted_students = dict(sorted(students.items(), key=lambda x: x[1], reverse=True))
+sorted_students = dict(sorted(students.items(), key=lambda x: len(x[0]) * x[1], reverse=True))
 print(sorted_students)  # {'Bob': 92, 'David': 90, 'Alice': 85, 'Charlie': 78}

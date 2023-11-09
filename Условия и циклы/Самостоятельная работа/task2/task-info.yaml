@@ -68,7 +68,4 @@ files:
     Одно из чисел меньше 45
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 02 Nov 2023 15:06:15 UTC"
 record: -1
