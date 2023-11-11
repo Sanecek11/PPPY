@@ -1,10 +1,10 @@
 # TODO реализовать функцию
 def get_sentences_list(text):
-    list_ = []
+    sen_list = []
     for sen in text.split("."):
         if sen:
-            list_.append(sen.strip())
-    return list_
+            sen_list.append(sen.strip())
+    return sen_list
 
 
 print(get_sentences_list("Здесь много разных слов. Возможно и много повторений..."))

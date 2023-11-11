@@ -25,7 +25,7 @@ files:
   visible: true
   placeholders:
   - offset: 70
-    length: 272
+    length: 237
     placeholder_text: |-
       # TODO Поместите код в условие if __name__ == '__main__':
       print(f"Функция `calculate_square_area` вызвана в модуле {__name__}")  # Печать переменной с названием модуля
@@ -34,7 +34,7 @@ files:
       length: 237
       offset: 70
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       if __name__ == '__main__':
@@ -52,5 +52,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 09 Nov 2023 16:37:32 UTC"
+  time: "Sat, 11 Nov 2023 07:30:43 UTC"
 record: -1
