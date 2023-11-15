@@ -61,4 +61,7 @@ files:
     Первый участник: Маша
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 15 Nov 2023 15:44:42 UTC"
 record: -1

@@ -31,4 +31,7 @@ files:
     Количество средств после выплаты равно = 15000
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 15 Nov 2023 15:44:33 UTC"
 record: -1

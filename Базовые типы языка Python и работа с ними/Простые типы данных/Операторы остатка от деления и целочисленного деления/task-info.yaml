@@ -43,4 +43,7 @@ files:
     print("Оставшееся количество часов =", hours)
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 15 Nov 2023 15:44:35 UTC"
 record: -1
