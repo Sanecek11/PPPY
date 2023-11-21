@@ -11,11 +11,11 @@ files:
       offset: 64
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       with open(FILENAME) as f:
               json_data = json.load(f)
-  - offset: 111
+  - offset: 196
     length: 53
     placeholder_text: "...  # TODO найти максимальный элемент по ключу score"
     initial_state:
@@ -23,7 +23,7 @@ files:
       offset: 111
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: "return max(json_data, key=lambda item: item[\"score\"\
       ])"
   text: |
@@ -53,5 +53,8 @@ files:
 - name: input.json
   visible: true
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 21 Nov 2023 11:40:58 UTC"
 record: -1

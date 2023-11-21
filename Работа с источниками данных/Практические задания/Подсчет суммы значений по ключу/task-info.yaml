@@ -11,11 +11,11 @@ files:
       offset: 63
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       with open(FILENAME) as f:
               json_data = json.load(f)
-  - offset: 117
+  - offset: 267
     length: 76
     placeholder_text: "...  # TODO Просуммируйте все значения по ключу contains_improvement_appeals"
     initial_state:
@@ -23,7 +23,7 @@ files:
       offset: 117
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       list_values = [item["contains_improvement_appeals"] for item in json_data]
           return sum(list_values)
@@ -54,5 +54,8 @@ files:
   text: |
     1418
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 21 Nov 2023 11:36:56 UTC"
 record: -1

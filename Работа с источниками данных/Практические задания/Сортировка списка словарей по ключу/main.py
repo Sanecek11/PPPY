@@ -9,7 +9,7 @@ def task() -> list[dict]:
         json_data = json.load(f)
 
     ...  # TODO отсортировать и вернуть список словарей
-
+    return sorted(json_data, key=lambda item: item["id"])
 
 if __name__ == '__main__':
     # Необходимо для проверки

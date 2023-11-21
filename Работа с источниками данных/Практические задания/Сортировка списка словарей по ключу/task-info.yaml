@@ -10,8 +10,8 @@ files:
       length: 51
       offset: 134
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: "return sorted(json_data, key=lambda item: item[\"\
       id\"])"
   text: |
@@ -159,5 +159,8 @@ files:
 - name: input.json
   visible: true
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 21 Nov 2023 11:44:01 UTC"
 record: -1
